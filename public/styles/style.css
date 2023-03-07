@@ -1,0 +1,115 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%; /*10px*/
+  --ff-title: "Montserrat", sans-serif;
+  --ff-text: "DM Sans", sans-serif;
+  --ff-textLuck: "Dancing Script", "cursive";
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  background: linear-gradient(45deg, #190361 0%, #bb00ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: -5rem;
+  background-color: #ffffff;
+  width: min(42.8rem, 90%);
+  height: min(42.4rem, 90%);
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+p {
+  color: #34355b;
+}
+
+h1 {
+  margin: 4.8rem 0 1.4rem 0;
+  width: 26rem;
+  text-align: center;
+  font-family: var(--ff-title);
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.container p {
+  margin-bottom: 2rem;
+  font-family: var(--ff-text);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.cookie-luck{
+  cursor: pointer;
+}
+
+.container2 {
+  margin-top: -5rem;
+  background-color: #ffffff;
+  width: min(42.8rem, 90%);
+  height: min(56.4rem, 90%);
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2 h1 {
+  width: min(29.7rem, 90%);
+  margin-bottom: 1.7rem;
+}
+
+.text-luck {
+  width: min(29.3rem, 90%);
+  height: min(10.7rem, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4edf1;
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+  margin-bottom: 6rem;
+}
+
+.text-luck p{
+  font-family: var(--ff-textLuck);
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: #000000;
+  padding: 1rem;
+}
+
+.button-open-cookie {
+  margin-top: 6rem;
+  width: min(17.4rem, 90%);
+  height: min(5.2rem, 90%);
+  background: #ff9500;
+  border-radius: 4px;
+  font-family: var(--ff-text);
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
