@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <img alt="Avançando no JavaScript" src="./public/images/readme.png" width="100%">
+  <img alt="Avançando no JavaScript" src="./public/images/readme.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
