@@ -9,6 +9,7 @@ const button = document.querySelector(".button-open-cookie")
 //Events
 cookie.addEventListener("click", luckToday)
 button.addEventListener("click", openAgainCookie)
+document.addEventListener("keypress", screenByEnter)
 
 //Logic
 let textLuck = document.querySelector(".text-luck p")
@@ -53,4 +54,10 @@ function openAgainCookie(event) {
 function toggleScreen() {
   screen1.classList.toggle("hide")
   screen2.classList.toggle("hide")
+}
+
+function screenByEnter(event) {
+  if (event.key == "Enter" && screen2.classList.contains("hide")) {
+    luckToday(event)
+  }
 }
