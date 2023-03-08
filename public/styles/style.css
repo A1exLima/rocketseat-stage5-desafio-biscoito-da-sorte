@@ -130,7 +130,7 @@ h1 {
 @keyframes textScale {
   0% {
     opacity: 0;
-    transform: translateY(10rem) scale(0);
+    transform: translateY(15rem) scale(0);
   }
   100% {
     opacity: 1;
